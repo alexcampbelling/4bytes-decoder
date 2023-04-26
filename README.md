@@ -8,8 +8,12 @@
 Example:
 
 Testing with input:  0xa9059cbb000000000000000000000000f3fffd51075a4f60735ed8505d30ac46951303a90000000000000000000000000000000000000000000000000000000005f5e100
+
 Parsed method name:  transfer
-Parsed input arguments: {
+
+Parsed input arguments: 
+
+{
   "to": "0xf3fffd51075a4f60735ed8505d30ac46951303a9",
   "val": 100000000
 }
