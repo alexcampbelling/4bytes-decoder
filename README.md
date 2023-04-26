@@ -20,3 +20,9 @@ Parsed input arguments:
 
 
 No calls to the OWL microservice, no full ABI being parsed or held in a backend database, no fussssss
+
+Todo:
+
+1. Auto update from Sourify repo
+2. Have unnamed option if named doesn't exist
+3. Add latency check
