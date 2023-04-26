@@ -16,10 +16,10 @@ func TestDecodeErc20Transfer(t *testing.T) {
 	functionName, args, err := decode(input)
 	argsString := string(args)
 
-	if !wantFunctionName.MatchString(functionName) || err != nil {
+	if wantFunctionName.MatchString(functionName) || err != nil {
 		t.Fatalf(`The decode function name returned as: %q, %v. We want this: %#q`, functionName, err, wantFunctionName)
 	}
-	if !wantArgs.MatchString(argsString) || err != nil {
+	if wantArgs.MatchString(argsString) || err != nil {
 		t.Fatalf(`The decode function arguments returned with: %q, %v. We want this: %#q`, argsString, err, wantArgs)
 	}
 }
